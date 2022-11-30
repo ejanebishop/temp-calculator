@@ -1,0 +1,38 @@
+<head>
+    <link rel="stylesheet" href="temp.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="form">
+
+            <p> Temperature Converter </p>
+            <label for="Tvalue"> Temperature Value: </label>
+            <input type="text" id="Tvalue" name="Tvalue"><br>
+            <label for="from">From: </label><br>
+            <select name="select" id="from"><br>
+                <option value="c">Celcius</option>
+                <option value="f">Fahrenheit</option>
+                <option value="k">Kelvin</option>               
+              </select><br>
+
+
+            <label for="to">To: </label><br>
+            <select name="to" id="to">
+                <option value="c">Celcius</option>
+                <option value="f">Fahrenheit</option>
+                <option value="k">Kelvin</option>               
+              </select><br>
+            <br>
+            <button onclick="calc()">Calculate</button><br><br>
+            <label for="value">Value: </label><br>
+            <input type="text" id="totVal" disabled><br><br>
+        </div>
+
+
+
+    </div>
+</body>

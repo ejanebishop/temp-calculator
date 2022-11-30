@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D09E7C;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+    color: #7E3804;
+    font-weight: bold;
+}
+
+button {
+    background-color: #654A47;
+    border-color: #654A47;
+    border-radius: 3px;
+    color: antiquewhite;
+}
+
+.form {
+    align-items: center;
+    padding: 20px 50px 20px 50px;
+    margin: 10px 20px 20px 20px;
+}
+
+input {
+    border-color: #654A47;
+    border-radius: 3px;
+    background-color: antiquewhite;
+}
